@@ -4,8 +4,8 @@
         <p>THÀNH VIÊN</p>
         <p>Nhóm 2:</p>
         <p>Nguyễn Quốc Khánh</p>
-        <p>Lưu Văn Hòa</p>
-        <p>Hoàng Thị Yến Trinh</p>
+        <p></p>
+        <p></p>
     </div>
     <div>
         <p>HỖ TRỢ</p>
