@@ -1,4 +1,4 @@
-# zingmp3 .
+# zingmp3 
 
 ## Project setup
 ```
