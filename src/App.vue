@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div>
-      <!-- <Header></Header> -->
       <header class="header">
       <div id="logo">
         <img src="https://i.imgur.com/FgXllJz.png"/>
@@ -18,11 +17,6 @@
       <div class="menu" id="menu4" @click="lapkehoach">
         <p>LẬP KẾ HOẠCH</p>
       </div>
-      <!-- <div id="ngaygio">
-        <p id="ten">Thành phố Hồ Chí Minh,</p>
-        <p id="gio2" v-show="time2">{{ time2 }}</p>
-        <p id="ngay2" v-show="date2">{{ date2 }}</p>
-      </div> -->
     </header>
     </div>
     <div id="noidung">
@@ -60,38 +54,9 @@ import LapKeHoachVue from "./components/LapKeHoach.vue";
 export default {
   name: "App",
   components: { Hientai, Footer, DuBaoVue, mapVue, LapKeHoachVue },
-  // data: () => ({
-  //         date2: '',
-  //         time2: '',
-  //         year2: '',
-  //         timestamp2: '',
-  //         fulldatetime2: ''
-  //       }),
+
   methods: {
-    //  printDate: function () {
-    //         return new Date().toLocaleDateString();
-    //       },
-    //       printTime: function () {
-    //         return new Date().toLocaleTimeString();
-    //       },
-    //       printYear: function () {
-    //         return new Date().getFullYear();
-    //       },          
-    //       printTimestamp: function () {
-    //         return Date.now();
-    //       },
-    //       printFullDate: function(){
-    //         return new Date();
-    //       },
-    //       mounted: function () {
-    //       this.date2 = this.printDate();
-    //       window.setInterval(() => {
-    //         this.time2 = this.printTime();
-    //         }, 1000);
-    //       this.timestamp2 = this.printTimestamp();
-    //       this.year2 = this.printYear();
-    //       this.fulldatetime2 = this.printFullDate();
-    //     },
+  
     today(){
       document.getElementById("noidung1").style.display = "block";
       document.getElementById("noidung2").style.display = "none";
