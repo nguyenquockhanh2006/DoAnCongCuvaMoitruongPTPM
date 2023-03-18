@@ -18,11 +18,6 @@
         </select>
         <input hidden type="text" v-model="city_key" />
       </div>
-      <!-- <div id="ghichu">
-        Thời tiết dự báo của tỉnh/ thành lấy theo thời tiết tỉnh lỵ của
-        tỉnh/thành đó (VD: Thời tiết tỉnh Lâm Đồng được lấy theo thời tiết của
-        TP Đà Lạt)
-      </div> -->
     </div>
     <div id="thongtin">
       <div id="anh">
@@ -103,7 +98,6 @@
     </div>
   </div>
 </template>
-    
     <script>
 const apikey = "49iGRb0e4oMjyWeN8IJ29jGqVoHymMi0";
 export default {
@@ -131,30 +125,30 @@ export default {
           id: 352098,
           src: "https://cdn.vietnamtours247.com/2020/02/van-hoa-bac-giang-co-gi-thu-vi.png",
         },
-        { name: "Bắc Kạn", id: 352107, src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtp45LrZJjSUbtnF0NSfq3JeNXhmq4REQ8AA&usqp=CAU" ,},
-        { name: "Bắc Ninh", id: 352118, src: "https://dutoanf1.com.vn/wp-content/uploads/2018/08/bac-ninh-1024x715.jpg", },
-        { name: "Bến Tre", id: 352226, src: "https://i.doanhnhansaigon.vn/2020/07/23/bentre-1595472166_750x0.jpg" ,},
-        { name: "Bình Dương", id: 352246, src: "https://i.doanhnhansaigon.vn/2020/07/23/bentre-1595472166_750x0.jpg" ,},
-        { name: "Bình Định", id: 171, src: "https://media.baodautu.vn/Images/chicuong/2021/02/09/Binh_Dinh_-_1_copy.jpg" ,},
-        { name: "Bình Phước", id: 426222, src: "https://binhphuoc.gov.vn/uploads/binhphuoc/news/2022_03/binh-phuoc-21322.jpg" ,},
-        { name: "Bình Thuận", id: 352262, src: "https://image.thanhnien.vn/w1024/Uploaded/2023/puqgfdmzs-co/2021_10_04/lagi-binh-thuan-1-4831.png", },
-        { name: "Cà Mau", id: 352499, src: "https://fileapi.surego.vn//Upload/NewsImage/R637096778929414583.png" ,},
-        { name: "Cao Bằng", id: 352511, src: "https://media-cdn.tripadvisor.com/media/photo-s/13/d3/4a/fe/angel-eye-mountain.jpg" ,},
-        { name: "Cần Thơ", id: 352508, src: "https://statics.vinpearl.com/cantho_1661238771.jpg", },
-        { name: "Đà Nẵng", id: 352954, src: "https://statics.vinpearl.com/du-lich-da-nang_1657939501.JPG" ,},
-        { name: "Đắk Lắk", id: 354247, src: "https://bmgroup.asia/wp-content/uploads/2022/09/dlk1.jpg", },
-        { name: "Đắk Nông", id: 352968, src: "https://media.baodautu.vn/Images/hoanganh/2022/04/12/Dak_Nong_2.jpg", },
-        { name: "Điện Biên", id: 353002, src: "https://consosukien.vn/pic/News/Nam_2021/637573052714736621.jpg", },
-        { name: "Đồng Nai", id: 353021, src: "https://znews-photo.zingcdn.me/w660/Uploaded/qxjwpprjv/2022_02_20/DJI_0439_zing_28_.jpg" ,},
-        { name: "Đồng Tháp", id: 353033, src: "https://hinhanhdephd.com/wp-content/uploads/2016/03/thanh-pho-cao-lanh-ve-dem.jpg", },
-        { name: "Hà Giang", id: 353389, src: "https://4.bp.blogspot.com/-eUyjmRfuG0I/VDu40J8AhZI/AAAAAAAACAg/kZ-zDTU59lA/s1600/23.jpg", },
-        { name: "Hà Nam", id: 353404, src: "https://vnmedia.vn/file/8a10a0d36ccebc89016ce0c6fa3e1b83/8a10a0d3761897b0017665518e9b6a91/052022/tppl.5_20220511105809.jpg" ,},
-        { name: "Hà Nội", id: 353412, src: "https://file3.qdnd.vn/data/images/0/2022/10/09/phucthang/hanoi%201.jpg?dpi=150&quality=100&w=870" ,},
-        { name: "Hà Tĩnh", id: 353418, src: "https://image.thanhnien.vn/w1024/Uploaded/2023/qxwpth-zl/2022_04_23/image1-6770.png", },
-        { name: "Hải Dương", id: 353501, src: "https://media.baodautu.vn/Images/chicuong/2021/08/07/19.jpg", },
-        { name: "Hải Phòng", id: 353511, src: "https://media.vneconomy.vn/images/upload/2022/04/28/hai-phong-no-luc-doi-moi-53744.jpg", },
-        { name: "Hậu Giang", id: 353559, src: "https://cdn3.ivivu.com/2022/06/haugiang.png", },
-        { name: "Hòa Bình", id: 353983, src: "https://nld.mediacdn.vn/2018/11/9/2hoabinh01-15417634867141723055756.jpg", },
+        // { name: "Bắc Kạn", id: 352107, src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtp45LrZJjSUbtnF0NSfq3JeNXhmq4REQ8AA&usqp=CAU" ,},
+        // { name: "Bắc Ninh", id: 352118, src: "https://dutoanf1.com.vn/wp-content/uploads/2018/08/bac-ninh-1024x715.jpg", },
+        // { name: "Bến Tre", id: 352226, src: "https://i.doanhnhansaigon.vn/2020/07/23/bentre-1595472166_750x0.jpg" ,},
+        // { name: "Bình Dương", id: 352246, src: "https://i.doanhnhansaigon.vn/2020/07/23/bentre-1595472166_750x0.jpg" ,},
+        // { name: "Bình Định", id: 171, src: "https://media.baodautu.vn/Images/chicuong/2021/02/09/Binh_Dinh_-_1_copy.jpg" ,},
+        // { name: "Bình Phước", id: 426222, src: "https://binhphuoc.gov.vn/uploads/binhphuoc/news/2022_03/binh-phuoc-21322.jpg" ,},
+        // { name: "Bình Thuận", id: 352262, src: "https://image.thanhnien.vn/w1024/Uploaded/2023/puqgfdmzs-co/2021_10_04/lagi-binh-thuan-1-4831.png", },
+        // { name: "Cà Mau", id: 352499, src: "https://fileapi.surego.vn//Upload/NewsImage/R637096778929414583.png" ,},
+        // { name: "Cao Bằng", id: 352511, src: "https://media-cdn.tripadvisor.com/media/photo-s/13/d3/4a/fe/angel-eye-mountain.jpg" ,},
+        // { name: "Cần Thơ", id: 352508, src: "https://statics.vinpearl.com/cantho_1661238771.jpg", },
+        // { name: "Đà Nẵng", id: 352954, src: "https://statics.vinpearl.com/du-lich-da-nang_1657939501.JPG" ,},
+        // { name: "Đắk Lắk", id: 354247, src: "https://bmgroup.asia/wp-content/uploads/2022/09/dlk1.jpg", },
+        // { name: "Đắk Nông", id: 352968, src: "https://media.baodautu.vn/Images/hoanganh/2022/04/12/Dak_Nong_2.jpg", },
+        // { name: "Điện Biên", id: 353002, src: "https://consosukien.vn/pic/News/Nam_2021/637573052714736621.jpg", },
+        // { name: "Đồng Nai", id: 353021, src: "https://znews-photo.zingcdn.me/w660/Uploaded/qxjwpprjv/2022_02_20/DJI_0439_zing_28_.jpg" ,},
+        // { name: "Đồng Tháp", id: 353033, src: "https://hinhanhdephd.com/wp-content/uploads/2016/03/thanh-pho-cao-lanh-ve-dem.jpg", },
+        // { name: "Hà Giang", id: 353389, src: "https://4.bp.blogspot.com/-eUyjmRfuG0I/VDu40J8AhZI/AAAAAAAACAg/kZ-zDTU59lA/s1600/23.jpg", },
+        // { name: "Hà Nam", id: 353404, src: "https://vnmedia.vn/file/8a10a0d36ccebc89016ce0c6fa3e1b83/8a10a0d3761897b0017665518e9b6a91/052022/tppl.5_20220511105809.jpg" ,},
+        // { name: "Hà Nội", id: 353412, src: "https://file3.qdnd.vn/data/images/0/2022/10/09/phucthang/hanoi%201.jpg?dpi=150&quality=100&w=870" ,},
+        // { name: "Hà Tĩnh", id: 353418, src: "https://image.thanhnien.vn/w1024/Uploaded/2023/qxwpth-zl/2022_04_23/image1-6770.png", },
+        // { name: "Hải Dương", id: 353501, src: "https://media.baodautu.vn/Images/chicuong/2021/08/07/19.jpg", },
+        // { name: "Hải Phòng", id: 353511, src: "https://media.vneconomy.vn/images/upload/2022/04/28/hai-phong-no-luc-doi-moi-53744.jpg", },
+        // { name: "Hậu Giang", id: 353559, src: "https://cdn3.ivivu.com/2022/06/haugiang.png", },
+        // { name: "Hòa Bình", id: 353983, src: "https://nld.mediacdn.vn/2018/11/9/2hoabinh01-15417634867141723055756.jpg", },
         { name: "Thành Phố Hồ Chí Minh", id: 353981, src: "https://vietnamnomad.com/wp-content/uploads/2021/01/Ho-Chi-Minh-City-Travel-Guide-2021-Vietnamnomad.jpg", },
         { name: "Hưng Yên", id: 353992, src: "http://photos.wikimapia.org/p/00/02/46/74/20_full.jpg", },
         { name: "Khánh Hòa", id: 354222, src: "https://bqldann.khanhhoa.gov.vn/media/cats/gioi-thieu/tong-quan-ve-khanh-hoa-2.jpg" ,},
