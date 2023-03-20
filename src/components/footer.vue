@@ -5,7 +5,7 @@
         <p>Nhóm 2:</p>
         <p>Nguyễn Quốc Khánh</p>
         <p>Nguyễn Quốc Khánh</p>
-        <p></p>
+        <p>Nguyễn Quốc Khánh</p>
     </div>
     <div>
         <p>HỖ TRỢ</p>
