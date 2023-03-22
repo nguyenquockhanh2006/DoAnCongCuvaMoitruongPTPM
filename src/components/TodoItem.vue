@@ -34,7 +34,7 @@
   </script>
   
   <style>
-  .todo-item {
+  /* .todo-item {
     background: #f4f4f4;
     padding: 10px;
     margin: 0;
@@ -51,5 +51,5 @@
     border: none;
     cursor: pointer;
     float: right;
-  }
+  } */
   </style>
