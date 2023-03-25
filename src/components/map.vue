@@ -199,27 +199,6 @@ export default {
 </script>
 
 <style scoped>
-/* #map {
-  width: 1380.2px;
-  height: 100vh;
-  display: flex;
-  background-color: black;
-}
-
-#map-here {
-  margin-top: 5%;
-  margin-left: 3%;
-  width: 60%;
-  height: 70%;
-}
-#thongtintt {
-  float: right;
-  margin-top: 5%;
-  margin-left: 2%;
-  width: 33%;
-  height: 70%;
-  background-color: antiquewhite;
-} */
 
 #map {
   width: 100%;
@@ -280,8 +259,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background: rgb(254,219,101);
-    background: linear-gradient(360deg, rgba(254,219,101,1) 0%, rgba(214,99,134,1) 100%); */
+
 }
 .time {
   font-size: 23px;

@@ -178,16 +178,16 @@ export default {
           var testtask = ">>> " + doc.data().task;
           var thespan = document.createElement("span");
           
-          //document.getElementById('showTask').innerText += testtask;
+          document.getElementById('showTask').innerText += testtask;
 
           thespan.innerText += testtask;
           document.getElementById('showTask').appendChild(thespan); 
           var br = document.createElement("br");         
           document.getElementById('showTask').appendChild(br);        
-          //console.log(doc.data().task);
+          console.log(doc.data().task);
         }
       });
-        //console.log(data.data.weather[0].main);
+        console.log(data.data.weather[0].main);
       } catch (e) {
         alert('Không tải được dữ liệu, vui lòng kiểm tra lại nhập liệu của bạn!');
         return { data: [] };
