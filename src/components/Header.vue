@@ -5,7 +5,7 @@
         <div class="li">DỰ BÁO</div>
       </div>
       <div id="ngaygio">
-        <p id="ten">Thành phố Hồ Chí Minh,</p>
+        <p id="ten">Tp.Hồ Chí Minh,</p>
         <p id="gio" v-show="time">{{ time }}</p>
         <p id="ngay" v-show="date">{{ date }}</p>
       </div>
