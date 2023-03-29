@@ -4,8 +4,8 @@
         <p>THÀNH VIÊN</p>
         <p>Nhóm 3:</p>
         <p>Nguyễn Quốc Khánh</p>
-        <p>Nguyễn Quốc Khánh</p>
-        <p>Nguyễn Quốc Khánh</p>
+        <p></p>
+        <p></p>
     </div>
     <div>
         <p>HỖ TRỢ</p>
