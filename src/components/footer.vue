@@ -4,7 +4,7 @@
         <p>THÀNH VIÊN</p>
         <p>Nhóm 3:</p>
         <p>Nguyễn Quốc Khánh</p>
-        <p></p>
+        <p>Duy Nhân</p>
         <p></p>
     </div>
     <div>
