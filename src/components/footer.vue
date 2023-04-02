@@ -5,7 +5,7 @@
         <p>Nhóm 3:</p>
         <p>Nguyễn Quốc Khánh</p>
         <p>Duy Nhân</p>
-        <p></p>
+        <p>Nhưỡng</p>
     </div>
     <div>
         <p>HỖ TRỢ</p>
