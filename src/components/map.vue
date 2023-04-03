@@ -1,5 +1,5 @@
 <template id="chinh">
-  <div id="map">
+  <div id="map" >
     <div id="map-in">
       <div id="map-here"></div>
       <div id="thongtintt">
