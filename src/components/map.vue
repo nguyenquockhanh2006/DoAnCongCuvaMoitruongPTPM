@@ -1,5 +1,5 @@
 <template id="chinh">
-  <div id="map" >
+  <div id="map">
     <div id="map-in">
       <div id="map-here"></div>
       <div id="thongtintt">
@@ -199,5 +199,158 @@ export default {
 </script>
 
 <style scoped>
+/* #map {
+  width: 1380.2px;
+  height: 100vh;
+  display: flex;
+  background-color: black;
+}
 
+#map-here {
+  margin-top: 5%;
+  margin-left: 3%;
+  width: 60%;
+  height: 70%;
+}
+#thongtintt {
+  float: right;
+  margin-top: 5%;
+  margin-left: 2%;
+  width: 33%;
+  height: 70%;
+  background-color: antiquewhite;
+} */
+
+#map {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+}
+#map-in {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#d1{
+      display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#khung2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#map-here {
+  width: 65%;
+  height: 100%;
+}
+#khung1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 9em;
+}
+#lat,
+#lng {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding: 0.4em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#thongtintt {
+  display: flex;
+  width: 35%;
+  height: 100%;
+  background-color: #ffe5d9;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 630px;
+  background-color: #e2eafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: rgb(254,219,101);
+    background: linear-gradient(360deg, rgba(254,219,101,1) 0%, rgba(214,99,134,1) 100%); */
+}
+.time {
+  font-size: 23px;
+}
+
+.hour {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.address {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.iamge {
+  width: 200px;
+}
+
+.temperature {
+  /* color: white; */
+  font-size: 80px;
+  font-weight: lighter;
+  line-height: 1;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.temperature::after {
+  content: "o";
+  position: absolute;
+  font-size: 30px;
+}
+
+.current-day {
+  /* color: white; */
+  font-size: 27px;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.font-bold {
+  font-weight: bold;
+  margin: 5px;
+}
+
+.font-nomal {
+  font-weight: normal;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
 </style>
