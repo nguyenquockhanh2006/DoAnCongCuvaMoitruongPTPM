@@ -336,7 +336,7 @@ export default {
     },
     //
     FtoC(f) {
-      return Math.round(((f - 32) * 5) / 9);
+      return Math.round((f - 32) );
     },
   },
 };
