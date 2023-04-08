@@ -16,7 +16,7 @@
         <p>BẢN DỒ</p>
       </div>
       <div class="menu" id="menu4" @click="lapkehoach">
-        <p>LẬP KẾ HOẠCH</p>
+        <p>LẬP KẾ HOẠCh</p>
       </div>
       <!-- <div id="ngaygio">
         <p id="ten">Thành phố Hồ Chí Minh,</p>
