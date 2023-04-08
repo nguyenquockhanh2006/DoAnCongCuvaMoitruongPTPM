@@ -2,10 +2,10 @@
   <div id="chan">
     <div id="lienhe">
         <p>THÀNH VIÊN</p>
-        <p>Nhóm 2:</p>
+        <p>Nhóm 3:</p>
         <p>Nguyễn Quốc Khánh</p>
-        <p>Lưu Văn Hòa</p>
-        <p>Hoàng Thị Yến Trinh</p>
+        <p>Duy Nhân</p>
+        <p>Thái Bình Nhưỡng</p>
     </div>
     <div>
         <p>HỖ TRỢ</p>
